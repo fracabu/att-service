@@ -1,1 +1,68 @@
-Single-database configuration for Flask.
+# 🛠️ ATT Service
+
+App per la gestione di attività e servizi, con frontend in Vue.js/Vite e backend in Flask.
+
+## ✨ Funzionalità
+- Database SQLite con SQLAlchemy
+- API REST con Flask
+- Frontend moderno con Vite e Vue.js
+- Supporto TypeScript
+- Styling con Tailwind CSS
+
+## 🚀 Setup del progetto
+
+### 1. Backend (Flask)
+```bash
+cd C:\Users\utente\Desktop\att-service
+venv\Scripts\activate
+set FLASK_APP=app.py
+flask run
+```
+Il backend sarà disponibile su `http://127.0.0.1:5000`
+
+### 2. Frontend (Vite)
+```bash
+cd C:\Users\utente\Desktop\att-service
+npm install
+npm run dev
+```
+Il frontend sarà disponibile su `http://localhost:5173`
+
+## 🗂️ Struttura del progetto
+- `src/`: Codice sorgente frontend
+- `migrations/`: Migrazioni database
+- `venv/`: Ambiente virtuale Python
+- `node_modules/`: Dipendenze Node.js
+
+## 💻 Requisiti
+- Python 3.x
+- Node.js
+- npm
+
+## 📝 Note
+- Server di sviluppo: non utilizzare in produzione
+- Mantenere entrambi i server (backend e frontend) attivi durante lo sviluppo
+
+# Avvio Backend (Terminale 1)
+1. Apri un nuovo terminale Windows
+2. Esegui in sequenza:
+```bash
+cd C:\Users\utente\Desktop\att-service
+venv\Scripts\activate
+set FLASK_APP=app.py
+flask run
+```
+
+# Avvio Frontend (Terminale 2) 
+1. Apri un nuovo terminale Windows
+2. Esegui in sequenza:
+```bash
+cd C:\Users\utente\Desktop\att-service
+npm install    # solo la prima volta
+npm run dev
+```
+
+**Note**:
+- Backend disponibile su: `http://127.0.0.1:5000`
+- Frontend disponibile su: `http://localhost:5173`
+- Mantieni entrambi i terminali aperti durante l'uso
